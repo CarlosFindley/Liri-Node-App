@@ -68,7 +68,7 @@ function getBandsInTown(artist) {
         function (response) {
             console.log("--------------------");
             console.log("Venue Name: " + response.data[0].venue.name + "\r\n");
-            console.log("Venue Location: " response.data[0].venue.city + "\r\n");
+            console.log("Venue Location: " + response.data[0].venue.city + "\r\n");
             console.log("Event Date: " + moment(response.data[0].datetime).format("MM-DD-YYYY") + "\r\n");
 
             // Finally, we append to log.txt
@@ -110,8 +110,7 @@ function getSpotify(songName) {
             console.log("Album: " + data.tracks.items[0].album.name + "\r\n");
 
                 // Finally, we append to log.txt
-                var logSong = "----------Spotify Music Info----------" + "\n Artist(s): " + data.tracks.items[0].album.artists[0].name + "\n Song: " data.tracks.items[0].name + "\n Link to sample: " + data.tracks.items[0].href + "\n Album: " + data.tracks.items[0].album.name + "--------------------" + "\n";
-
+                var logSong = "----------Spotify Music Info----------" + "\n Artist(s): " + data.tracks.items[0].album.artists[0].name + "\n Song: " + data.tracks.items[0].name + "\n Link to sample: " + data.tracks.items[0].href + "\n Album: " + data.tracks.items[0].album.name + "--------------------" + "\n";
                 fs.appendFile("log.txt", logSong, function (err) {
                     if (err) throw err;
                 });
