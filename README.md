@@ -35,7 +35,7 @@
 <img src="?">
 <br>
 <pre>do-what-it-says</pre>
-<img src="randomSearch.png">
+<img src="imgs/randomSearch.png">
 <br>
 
 Video Guide Here: 
