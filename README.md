@@ -27,9 +27,18 @@
 
 <pre>concert-this</pre>
 <img src="imgs/concertSearch.png">
+<br>
 <pre>spotify-this-song</pre>
+<img src="imgs/songSearch.png">
+<br>
 <pre>movie-this</pre>
+<img src="?">
+<br>
 <pre>do-what-it-says</pre>
+<img src="randomSearch.png">
+<br>
+
+Video Guide Here: 
 
 
 
