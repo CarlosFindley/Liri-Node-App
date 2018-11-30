@@ -23,7 +23,7 @@ var moment = require("moment");
 // Grabbing user action command from CLI
 var actionCommand = process.argv[2];
 // Grabbing user item command (e.g. "concert-this") from CLI.  This will grab everything after index 3 and ignore anything prior
-var userItemCommand = process.argv.slice(3).join(" ")
+var userItemCommand = process.argv.slice(3).join(" ");
 
 // Make it so liri.js can take in one of the following commands:
 // concert-this
