@@ -4,8 +4,7 @@
 <p>The goal is to help the user find information about songs, artists, music events, and movies.</p>
 <p><b>NOTE:</b> in order to use this app, you would need to have your own Spotify API keys,  You can get this on <a href="https://developer.spotify.com/dashboard/login">Spotify</a></p>
 
-
-<h3>Tools to used:</h3>
+<h3>Tools used:</h3>
 <ul>
   <li>Axios</li>
   <li>Node.js</li>
@@ -15,4 +14,17 @@
   <li>Moment</li>
   <li>DotEnv</li>
 </ul>  
+
+<h4>Step-by-Step Guide</h4>
+<p>Open your command line and go the liri-node-app folder.  You will be able to input the following commands:</p>
+<ul>
+  <li>concert-this</li>
+  <li>spotify-this-song</li>
+  <li>movie-this</li>
+  <li>do-what-it-says</li>
+</ul> 
+<p>The code syntax will look like this: <code>node liri.js <input one of the commands above> <input song/artist/movie></code></p>
+
+
+
 
