@@ -67,10 +67,18 @@ function getBandsInTown(artist) {
     axios.get(artistQuery).then(
         function (response) {
             console.log("--------------------");
-            console.log(Name)
-        }
-    )
-}
+            console.log("Venue Name: " + response.data[0].venue.name + "\r\n");
+            console.log("Venue Location: " response.data[0].venue.city + "\r\n");
+            console.log("Event Date: " + moment(response.data[0].datetime).format("MM-DD-YYYY") + "\r\n");
+
+            // Finally, we append to log.txt
+            var logArtistEvent = "----------Bands in Town Info----------" + "\n Artist(s): " + artist + "\n Venue Name: " + response.data[0].venue.name + "\n Venue Location: " + response.data[0].venue.city + "\n Event Date: " + moment(response.data[0].datetime).format("MM-DD-YYYY") + "--------------------" + "\n";
+
+            fs.appendFile("log.txt", logArtistEvent, function (err) {
+                if (err) throw err;
+            });
+    });
+};
 
 
 
@@ -92,7 +100,7 @@ function getSpotify(songName) {
         // adding error message
     }, function (err, data) {
         if (err) {
-            return console.log("ERROR OCCURRED: " + ERR);
+            return console.log("ERROR OCCURRED: " + err);
             // If no error happens (sourcing is successful), give us the following
         } 
             console.log("--------------------");
@@ -112,6 +120,61 @@ function getSpotify(songName) {
         });
 };
 
+
+// Using OMDB for movie-this
+function getOMDB(movie) {
+    // If the song name is left blank, add the following movie as default
+    if (!movie) {
+        movie = "Como agua para chocolate";
+    };
+
+    // Next, we are creating the search logic
+    var movieQuery = "http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=trilogy";
+
+    axios.request(movieQuery).then(
+        function (response) {
+            // If no error happens (sourcing is successful), give us the following
+            console.log("--------------------");
+            console.log("Movie Title: " + response.data.Title + "\r\n");
+            console.log("Year: " + response.data.Year + + "\r\n");
+            console.log("IMBD Rating: " + response.data.imdbRating + "\r\n");
+            console.log("Rotten Tomatoes Rating: " + response.data.Rating[1].Value + "\r\n");
+            console.log("Country Produced: " + response.data.Country + "\r\n");
+            console.log("Language: " + response.data.Language + "\r\n");
+            console.log("Plot: " + response.data.Plot + "\r\n");
+            console.log("Actors: " + response.data.Actors + "\r\n");
+
+                // Finally, we append to log.txt
+                var logMovie = "----------OMDB Info----------" + "\n Movie Title: " + response.data.Title + "\n Year: " + response.data.Year + "\n IMBD Rating: " + response.data.imdbRating + "\n Rotten Tomatoes Rating: " + response.data.Rating[1].Value + "\n Country Produced: " + response.data.Country + "\n Language: " + response.data.Language + "\n Plot: " + response.data.Plot + "\n Actors: " + response.data.Actors + "--------------------" + "\n";
+
+                fs.appendFile("log.txt", logMovie, function (err) {
+                    if (err) throw err;
+                });
+            });
+};
+
+
+// Random Feature Function
+function getRandom() {
+    fs.readFile("random.txt", "utf8", function (err, data) {
+        if (err) {
+            return console.log(err);
+        } else {
+            console.log(data);
+
+            var randomData = data.split(",");
+            liriCommandRun(randomData[0], randomData[1]);
+        };
+    });
+};
+
+
+// Function to log results to other functions
+function logResults(data) {
+    fs.appendFile("log.txt", data, function (err) {
+        if (err) throw err;
+    });
+};
 
 
 // Calling the search command function
