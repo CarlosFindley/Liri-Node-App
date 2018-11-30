@@ -23,7 +23,7 @@
   <li>movie-this</li>
   <li>do-what-it-says</li>
 </ul> 
-<p>The code syntax will look like this: <code>node liri.js <input one of the commands above> <input song/artist/movie></code></p>
+<p>The code syntax will look like this: <code>node liri.js &#60;input one of the commands above&#62; &#60;input song/artist/movie&#62;</code></p>
 
 
 
