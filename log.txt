@@ -33,3 +33,46 @@
  Song: I Want It That Way
  Link to sample: https://api.spotify.com/v1/tracks/6e40mgJiCid5HRAGrbpGA6
  Album: The Hits--Chapter One--------------------
+----------Spotify Music Info----------
+ Artist(s): Backstreet Boys
+ Song: I Want It That Way
+ Link to sample: https://api.spotify.com/v1/tracks/6e40mgJiCid5HRAGrbpGA6
+ Album: The Hits--Chapter One--------------------
+----------Bands in Town Info----------
+ Artist(s): lala
+ Venue Name: Kyoto Metro
+ Venue Location: Kansai
+ Event Date: 12-30-2018--------------------
+----------Spotify Music Info----------
+ Artist(s): Natalia Lafourcade
+ Song: Tonada de Luna Llena
+ Link to sample: https://api.spotify.com/v1/tracks/6UB0oeQixDMtuQalt0QFS0
+ Album: Musas (Un Homenaje al Folclore Latinoamericano en Manos de Los Macorinos, Vol. 1)--------------------
+----------Spotify Music Info----------
+ Artist(s): Various Artists
+ Song: La Llorona
+ Link to sample: https://api.spotify.com/v1/tracks/5fBcRH4CnYTaFMQtM0JtSl
+ Album: Coco (Original Motion Picture Soundtrack)--------------------
+----------OMDB Info----------
+ Movie Title: Mr. Nobody
+ Year: 2009
+ IMBD Rating: 7.9
+ Rotten Tomatoes Rating: 67%
+ Country Produced: Belgium, Germany, Canada, France, USA, UK
+ Language: English, Mohawk
+ Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+ Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham--------------------
+----------OMDB Info----------
+ Movie Title: Mr. Nobody
+ Year: 2009
+ IMBD Rating: 7.9
+ Rotten Tomatoes Rating: 67%
+ Country Produced: Belgium, Germany, Canada, France, USA, UK
+ Language: English, Mohawk
+ Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+ Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham--------------------
+----------Spotify Music Info----------
+ Artist(s): Various Artists
+ Song: La Llorona
+ Link to sample: https://api.spotify.com/v1/tracks/5fBcRH4CnYTaFMQtM0JtSl
+ Album: Coco (Original Motion Picture Soundtrack)--------------------

@@ -132,19 +132,20 @@ function getOMDB(movie) {
 
     axios.request(movieQuery).then(
         function (response) {
+            // console.log(response);
             // If no error happens (sourcing is successful), give us the following
             console.log("--------------------");
             console.log("Movie Title: " + response.data.Title + "\r\n");
-            console.log("Year: " + response.data.Year + + "\r\n");
+            console.log("Year: " + response.data.Year + "\r\n");
             console.log("IMBD Rating: " + response.data.imdbRating + "\r\n");
-            console.log("Rotten Tomatoes Rating: " + response.data.Rating[1].Value + "\r\n");
+            console.log("Rotten Tomatoes Rating: " + response.data.Ratings[1].Value + "\r\n");
             console.log("Country Produced: " + response.data.Country + "\r\n");
             console.log("Language: " + response.data.Language + "\r\n");
             console.log("Plot: " + response.data.Plot + "\r\n");
             console.log("Actors: " + response.data.Actors + "\r\n");
 
                 // Finally, we append to log.txt
-                var logMovie = "----------OMDB Info----------" + "\n Movie Title: " + response.data.Title + "\n Year: " + response.data.Year + "\n IMBD Rating: " + response.data.imdbRating + "\n Rotten Tomatoes Rating: " + response.data.Rating[1].Value + "\n Country Produced: " + response.data.Country + "\n Language: " + response.data.Language + "\n Plot: " + response.data.Plot + "\n Actors: " + response.data.Actors + "--------------------" + "\n";
+                var logMovie = "----------OMDB Info----------" + "\n Movie Title: " + response.data.Title + "\n Year: " + response.data.Year + "\n IMBD Rating: " + response.data.imdbRating + "\n Rotten Tomatoes Rating: " + response.data.Ratings[1].Value + "\n Country Produced: " + response.data.Country + "\n Language: " + response.data.Language + "\n Plot: " + response.data.Plot + "\n Actors: " + response.data.Actors + "--------------------" + "\n";
 
                 fs.appendFile("log.txt", logMovie, function (err) {
                     if (err) throw err;
