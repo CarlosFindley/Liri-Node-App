@@ -32,7 +32,7 @@
 <img src="imgs/songSearch.png">
 <br>
 <pre>movie-this</pre>
-<img src="'imgs/movieSearch.png">
+<img src="imgs/movieSearch.png">
 <br>
 <pre>do-what-it-says</pre>
 <img src="imgs/randomSearch.png">
