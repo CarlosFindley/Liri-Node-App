@@ -25,10 +25,13 @@
 </ul> 
 <p>The code syntax will look like this: <code>node liri.js &#60;input one of the commands above&#62; &#60;input song/artist/movie&#62;</code></p>
 
-<pre>concert-this</pre>
+<pre>concert-this screenshot example</pre>
 <img src="imgs/concertSearch.png">
 <br>
-<pre>spotify-this-song</pre>
+<img src="gifs/concertThis.gif">
+<br>
+<br>
+
 <img src="imgs/songSearch.png">
 <br>
 <pre>movie-this</pre>
@@ -37,8 +40,6 @@
 <pre>do-what-it-says</pre>
 <img src="imgs/randomSearch.png">
 <br>
-
-Video Guide Here: 
 
 
 
