@@ -28,19 +28,35 @@
 <pre>concert-this screenshot example</pre>
 <img src="imgs/concertSearch.png">
 <br>
+<pre>concert-this gif example</pre>
 <img src="gifs/concertThis.gif">
 <br>
 <br>
 
+<pre>spotify-this-song screenshot example</pre>
 <img src="imgs/songSearch.png">
 <br>
-<pre>movie-this</pre>
-<img src="imgs/movieSearch.png">
+<pre>spotify-this-song gif example</pre>
+<img src="gifs/spotifyThisSong.gif">
 <br>
-<pre>do-what-it-says</pre>
-<img src="imgs/randomSearch.png">
 <br>
 
+<pre>movie-this screenshot example</pre>
+<img src="imgs/movieSearch.png">
+<br>
+<pre>movie-this gif example</pre>
+<img src="gifs/movieThis.gif">
+<br>
+<br>
+
+
+<pre>do-what-it-says/random screenshot example</pre>
+<img src="imgs/randomSearch.png">
+<br>
+<pre>do-what-it-says/random gif example</pre>
+<img src="gifs/DoWhatItSays.gif">
+<br>
+<br>
 
 
 
