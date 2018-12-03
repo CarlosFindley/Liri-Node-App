@@ -76,3 +76,61 @@
  Song: La Llorona
  Link to sample: https://api.spotify.com/v1/tracks/5fBcRH4CnYTaFMQtM0JtSl
  Album: Coco (Original Motion Picture Soundtrack)--------------------
+----------Bands in Town Info----------
+ Artist(s): dua lipa
+ Venue Name: Wells Fargo Center
+ Venue Location: Philadelphia
+ Event Date: 12-05-2018--------------------
+----------Bands in Town Info----------
+ Artist(s): dua lipa
+ Venue Name: Wells Fargo Center
+ Venue Location: Philadelphia
+ Event Date: 12-05-2018--------------------
+----------Spotify Music Info----------
+ Artist(s): Natalia Lafourcade
+ Song: Soledad y el Mar
+ Link to sample: https://api.spotify.com/v1/tracks/1Xtz05nIgJiEYdncfd1w8h
+ Album: Musas (Un Homenaje al Folclore Latinoamericano en Manos de Los Macorinos, Vol. 1)--------------------
+----------Spotify Music Info----------
+ Artist(s): Natalia Lafourcade
+ Song: Soledad y el Mar
+ Link to sample: https://api.spotify.com/v1/tracks/1Xtz05nIgJiEYdncfd1w8h
+ Album: Musas (Un Homenaje al Folclore Latinoamericano en Manos de Los Macorinos, Vol. 1)--------------------
+----------Bands in Town Info----------
+ Artist(s): dua lipa
+ Venue Name: Wells Fargo Center
+ Venue Location: Philadelphia
+ Event Date: 12-05-2018--------------------
+----------Spotify Music Info----------
+ Artist(s): Natalia Lafourcade
+ Song: Soledad y el Mar
+ Link to sample: https://api.spotify.com/v1/tracks/1Xtz05nIgJiEYdncfd1w8h
+ Album: Musas (Un Homenaje al Folclore Latinoamericano en Manos de Los Macorinos, Vol. 1)--------------------
+----------Spotify Music Info----------
+ Artist(s): Natalia Lafourcade
+ Song: Soledad y el Mar
+ Link to sample: https://api.spotify.com/v1/tracks/1Xtz05nIgJiEYdncfd1w8h
+ Album: Musas (Un Homenaje al Folclore Latinoamericano en Manos de Los Macorinos, Vol. 1)--------------------
+----------OMDB Info----------
+ Movie Title: Coco
+ Year: 2017
+ IMBD Rating: 8.4
+ Rotten Tomatoes Rating: 97%
+ Country Produced: USA
+ Language: English, Spanish
+ Plot: Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather, a legendary singer.
+ Actors: Anthony Gonzalez, Gael García Bernal, Benjamin Bratt, Alanna Ubach--------------------
+----------OMDB Info----------
+ Movie Title: Coco
+ Year: 2017
+ IMBD Rating: 8.4
+ Rotten Tomatoes Rating: 97%
+ Country Produced: USA
+ Language: English, Spanish
+ Plot: Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather, a legendary singer.
+ Actors: Anthony Gonzalez, Gael García Bernal, Benjamin Bratt, Alanna Ubach--------------------
+----------Spotify Music Info----------
+ Artist(s): Backstreet Boys
+ Song: I Want It That Way
+ Link to sample: https://api.spotify.com/v1/tracks/6e40mgJiCid5HRAGrbpGA6
+ Album: The Hits--Chapter One--------------------
